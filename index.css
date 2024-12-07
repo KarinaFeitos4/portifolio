@@ -187,25 +187,54 @@ button:hover{
     padding: 150px 0 0 130px;
 }
 
-.text h2{
-    color: #fff;
+h2.titulo span{
+    color: #2ecc71;
     margin-top: 10px;
 }
-
-.text span{
-    color: #2ecc71;
-}
-
 
 html{scroll-behavior: smooth;
 }
 
+section.formulario{
+    padding: 80px 4%;
+}
 
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
 
+form input, form textarea{
+    width: 100%;
+    background-color: #2ecc7036;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: floralwhite;
+    font-size: 18px;
+}
 
-
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
     
+form .btn-enviar{
+    margin-top: 20px;
+}
 
-
+form .btn-enviar input{
+    width: 120px;
+    background-color: #2ecc71;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
