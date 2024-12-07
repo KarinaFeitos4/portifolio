@@ -172,6 +172,7 @@ button:hover{
 }
 
 .background-color-formulario{
+    background-image: url(background.jpeg);
      background-size: cover;
      background-position: center;
      width: 100%;
