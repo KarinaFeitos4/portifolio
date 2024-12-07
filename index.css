@@ -7,12 +7,9 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
-    position: absolute top 0 ;
 }
+    
 
-body{
-    overflow: hidden;
-}
 
 .background{
     background-image: url(background.jpeg);
@@ -31,7 +28,7 @@ header{
     padding-top: 1rem;
 }
 
-.cabeçalho-link{
+.cabeçalho-link ul{
     display: flex;
     gap: 3rem;
     font-weight: 300;
